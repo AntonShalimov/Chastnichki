@@ -1,0 +1,17 @@
+{
+   "authors": [ {
+      "email": "antonlyapunov@ya.ru",
+      "name": "Anton Lyapunov"
+   } ],
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [ "http://baza.farpost.ru/realty/*" ],
+      "js": [ "jquery.js","script.js"],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Частнички",
+   "homepage": "http://baza.farpost.ru",
+   "name": "Частнички",
+   "version": "0.1"
+}
